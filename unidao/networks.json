@@ -1,0 +1,8 @@
+{
+  "mainnet": {
+    "Simple_Storage": {
+      "address": "0x4bc6f75be8cf5fe89ff8c0f484461f73509e555a",
+      "startBlock": 0
+    }
+  }
+}
