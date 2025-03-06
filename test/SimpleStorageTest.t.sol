@@ -12,7 +12,7 @@ contract SimpleStorageTest is Test {
         _storage = new SimpleStorage();
     }
 
-    function test_store() public {
+    function test_store() public { 
         _storage.store(10);
         uint256 favoriteNumber = _storage.retrieve();
         assertEq(favoriteNumber, 10);
